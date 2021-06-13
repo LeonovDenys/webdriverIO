@@ -1,0 +1,19 @@
+class App {
+    async openHomePage() {
+        await browser.url("http://zero.webappsecurity.com/");
+    }
+
+    async openFeedbackPage() {
+        await browser.url("http://zero.webappsecurity.com/feedback.html");
+    }
+
+    async openLoginPage() {
+        await browser.url("http://zero.webappsecurity.com/login.html")
+    }
+
+    async logout() {
+        await browser.url("http://zero.webappsecurity.com/logout.html")
+    }
+
+}
+export default new App();
