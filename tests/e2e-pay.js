@@ -7,7 +7,7 @@ describe("E2E Currency Exchange", () => {
 
 
     it("Login into app", async () => {
-        await App.openLogin();
+        await App.openLoginPage();
         await LoginPage.login("username", "password");
         await Navbar.insideNavbarIsVisible();
     })

@@ -9,7 +9,7 @@ describe("E2E Help", () => {
 
 
     it("Login into app", async () => {
-        await App.openLogin();
+        await App.openLoginPage();
         await LoginPage.login("username", "password");
         await Navbar.insideNavbarIsVisible();
     })

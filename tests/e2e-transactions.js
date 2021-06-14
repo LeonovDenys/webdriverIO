@@ -7,7 +7,7 @@ describe("E2E - transactions", () => {
 
 
     it("Login into app", async () => {
-        await App.openLogin();
+        await App.openLoginPage();
         // await LoginPage.formIsVisible();
         // await LoginPage.fillForm("username", "password");
         // await LoginPage.submitForm();
